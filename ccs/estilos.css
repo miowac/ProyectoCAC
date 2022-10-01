@@ -1,0 +1,280 @@
+.FuentePagina{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ImagenPpal{
+    width:100%;
+}
+.HeaderFlex{
+    background-color: #353a40;
+    display: flex;
+    justify-content:center;
+
+}
+
+.Logo{
+    display:flex;
+    align-items: center;
+    width:40%;
+    padding-left:1rem;
+}
+.ImagenLogo{
+    width:20%;
+}
+
+.NavegadorPpal{
+    padding-right: 2rem;
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+
+.Nav{
+    padding-right: 2rem;
+    padding-left: 3rem;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.SectionPrincipal{
+    background-image: linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.5)), url(../Assets/Imagenes/ba1.jpg);
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+ .ParrafoPrincipal{
+    line-height:1.5rem;
+    text-align: right;
+    padding-right: 1rem;
+ }
+ .ContenidoPrincipal{
+        width: 50%;
+        text-align: right;
+        color:white;
+        padding-right: 1rem;
+        
+}
+
+.SeparaTarjeta{
+    width: 10px;
+}
+.card-group,
+.card {
+    background-color: #ffffff;
+    border-radius:2%;
+    padding: 0.5rem 0.5rem;
+}
+
+.LinkVerde{
+    color: #08a11d;
+    text-decoration: none;
+    font-size: 1rem;
+    
+}
+.LinkBlanco{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+h3{
+    font-weight:bold;
+}
+.box{
+    /* padding: 5px 5px;
+    width: 800px;
+    height: 100px; */
+    margin: 0 auto;
+    font-weight:bold;
+    text-align: center;
+}
+ 
+
+.FondoGris{
+    background-color: #353a40;
+}
+.BotonVerde{
+    width: 20%;
+    height: 8%;
+    padding-top: 0,75rem;
+    padding-bottom: 0,75rem;
+    border-radius: 5%;
+    background-color: #08a11d;
+    align-items: center;
+    text-decoration: none;
+    text-align: right;
+    color: white
+    
+}
+.BotonBlanco{
+    width: 35%;
+    height: 8%;
+    padding-top: 0,75rem;
+    padding-bottom: 0,75rem;
+    border-radius:5%;
+    border: 2px solid rgb(109, 108, 108);
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    color: white
+    
+}
+.BotonAmarillo{
+    width: 30%;
+    height: 8%;
+    border-radius: 10%;
+    border-top: 1rem;
+    background-color: #FEC107;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(14, 13, 13)
+        
+}
+
+.BotonTurquesa{
+    width: 30%;
+    height: 8%;
+    border-radius: 10%;
+    background-color: #17A2B7;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: white
+   
+}
+.BotonGris{
+    width: 30%;
+    height: 8%;
+    border-radius: 10%;
+    background-color: #727374;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: white
+    
+}
+.BotonRojo{
+    width: 30%;
+    height: 8%;
+    border-radius: 10%;
+    background-color: #DC3346;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: white
+}
+
+.BotonVerdeClaro{
+    background-color: #96C93E;
+    color: white
+}
+.sectionDividida{
+    display: flex;
+    height:70vh;
+}
+.imagenIzq{
+    height:100%;
+    width:50%;
+    background-image: url(../Assets/Imagenes/honolulu.jpg);
+    background-size: cover;
+}
+.contenidoDer{
+    height:100%;
+    width:50%;
+    padding:2rem;
+    background-color: #353A40;
+    color:white;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.FondoAzul{
+    background: linear-gradient(90deg, rgba(30,59,75,1) 0%, rgba(30,71,93,1) 35%, rgba(31,82,113,1) 100%);
+}
+.NavAzul{
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width:768px){
+   
+.HeaderFlex{
+flex-direction: column;
+}
+
+.Logo{
+width:100%;
+justify-content:space-between;
+padding-right:2rem;
+margin-bottom: 0.5rem;
+   }
+.NavegadorPpal{
+ width:100%;
+ flex-direction: column;
+ padding-right: initial;
+} 
+
+.Nav{
+    flex-direction: column;
+}
+
+ .SectionPrincipal{
+      height: 60vh;
+      justify-content:center;
+   }
+   .ParrafoPrincipal{
+      line-height:1rem;
+      text-align: end;
+   }
+
+.ContenidoPrincipal{
+    width: 100%;
+    text-align: end;
+        
+}
+.sectionDividida{
+    flex-direction: column;
+    height:100vh;
+}
+.imagenIzq{
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+}
+.contenidoDer{
+    width:100%;
+    flex-direction: column;
+    }
+    .NavAzul{
+        flex-direction: column;
+        padding-top:0.6rem;
+        padding-bottom:0.6rem;
+        font-size: 1.2rem;
+}
+}
